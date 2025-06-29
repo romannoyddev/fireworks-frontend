@@ -12,17 +12,12 @@ type Props = {
 const CatalogProductsCard: React.FC<Props> = ({ product }) => {
   return (
     <CatalogProductsCardStyled>
-      <CatalogProductsCardImg
-        src={`${import.meta.env.BASE_URL}${product.productImgUrl}`}
-        alt={product.productTitle}
-        width={100}
-        height={100}
-      />
+      <CatalogProductsCardImg src={product.imgUrl} alt={product.title} width={100} height={100} />
       <CatalogProductsCardText as="h3" $textColor="green" $textSize="l">
-        {product.productTitle}
+        {product.title}
       </CatalogProductsCardText>
       <CatalogProductsCardText as="p" $textColor="green" $textSize="m">
-        $ {product.productPrice}
+        $ {product.price}
       </CatalogProductsCardText>
     </CatalogProductsCardStyled>
   );

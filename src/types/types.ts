@@ -14,10 +14,10 @@ export type AppRoute = AppIndexRoute | AppNonIndexRoute;
 export type AppRoutes = AppRoute[];
 
 export interface CatalogProduct {
-  productId: number | string;
-  productCategory: string;
-  productTitle: string;
-  productPrice: string;
-  productDescription: string;
-  productImgUrl: string;
+  _id: string;
+  type: string;
+  title: string;
+  price: string;
+  description: string;
+  imgUrl: string;
 }
