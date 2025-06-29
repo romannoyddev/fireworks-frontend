@@ -3,21 +3,21 @@ import { createGlobalStyle } from 'styled-components';
 export const GlobalStyles = createGlobalStyle`
   @font-face {
     font-family: 'Comic Neue';
-    src: url('/fonts/comic-neue-v8-latin-300.woff2') format('woff2');
+    src: url('${import.meta.env.BASE_URL}fonts/comic-neue-v8-latin-300.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: 'Comic Neue';
-    src: url('/fonts/comic-neue-v8-latin-regular.woff2') format('woff2');
+    src: url('${import.meta.env.BASE_URL}fonts/comic-neue-v8-latin-regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: 'Comic Neue';
-    src: url('/fonts/comic-neue-v8-latin-700.woff2') format('woff2');
+    src: url('${import.meta.env.BASE_URL}fonts/comic-neue-v8-latin-700.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
     font-display: swap;

@@ -11,7 +11,12 @@ const FeaturedProductsCard: React.FC<FeaturedProductsCardProps> = ({
 }) => {
   return (
     <FeaturedProductsCardStyled $color={color}>
-      <Img src={imgUrl} alt={title} width={imgWidth} height={imgHeight} />
+      <Img
+        src={`${import.meta.env.BASE_URL}${imgUrl}`}
+        alt={title}
+        width={imgWidth}
+        height={imgHeight}
+      />
       <FeaturedProductsCardTitle as="h3" $textColor={color} $textSize="s">
         {title}
       </FeaturedProductsCardTitle>

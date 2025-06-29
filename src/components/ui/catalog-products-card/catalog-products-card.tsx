@@ -13,7 +13,7 @@ const CatalogProductsCard: React.FC<Props> = ({ product }) => {
   return (
     <CatalogProductsCardStyled>
       <CatalogProductsCardImg
-        src={product.productImgUrl}
+        src={`${import.meta.env.BASE_URL}${product.productImgUrl}`}
         alt={product.productTitle}
         width={100}
         height={100}
