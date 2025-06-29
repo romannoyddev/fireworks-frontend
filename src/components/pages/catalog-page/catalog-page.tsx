@@ -53,7 +53,7 @@ const CatalogPage: React.FC = () => {
               ))}
             </CatalogProductsBoard>
           ) : (
-            !loading && !error && <p>not found</p>
+            !loading && !error && <p>not found :(</p>
           )}
         </section>
       </SectionContainer>

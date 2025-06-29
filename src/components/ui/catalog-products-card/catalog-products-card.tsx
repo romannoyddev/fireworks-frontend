@@ -17,7 +17,7 @@ const CatalogProductsCard: React.FC<Props> = ({ product }) => {
         {product.title}
       </CatalogProductsCardText>
       <CatalogProductsCardText as="p" $textColor="green" $textSize="m">
-        $ {product.price}
+        $-{product.price}
       </CatalogProductsCardText>
     </CatalogProductsCardStyled>
   );
