@@ -3,28 +3,28 @@ import type { FeaturedProductsCardProps } from '../components/ui/featured-produc
 const featuredProductsMocks: FeaturedProductsCardProps[] = [
   {
     title: 'Rocket',
-    imgUrl: 'rocket.png',
+    imgUrl: 'images/rocket.png',
     imgWidth: 100,
     imgHeight: 100,
     color: 'blue'
   },
   {
     title: 'Fountain',
-    imgUrl: 'fountain.png',
+    imgUrl: 'images/fountain.png',
     imgWidth: 100,
     imgHeight: 100,
     color: 'pink'
   },
   {
     title: 'Party pack',
-    imgUrl: 'party-pack.png',
+    imgUrl: 'images/party-pack.png',
     imgWidth: 100,
     imgHeight: 100,
     color: 'purple'
   },
   {
     title: 'Sparklers',
-    imgUrl: 'sparklers.png',
+    imgUrl: 'images/sparklers.png',
     imgWidth: 100,
     imgHeight: 100,
     color: 'blue'

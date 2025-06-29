@@ -7,7 +7,7 @@ const catalogProductsMocks: CatalogProduct[] = [
     productTitle: 'Rocket',
     productPrice: '5',
     productDescription: 'description',
-    productImgUrl: '/rocket.png'
+    productImgUrl: 'images/rocket.png'
   },
   {
     productId: 2,
@@ -15,7 +15,7 @@ const catalogProductsMocks: CatalogProduct[] = [
     productTitle: 'Rocket',
     productPrice: '4.5',
     productDescription: 'description',
-    productImgUrl: '/rocket.png'
+    productImgUrl: 'images/rocket.png'
   },
   {
     productId: 3,
@@ -23,7 +23,7 @@ const catalogProductsMocks: CatalogProduct[] = [
     productTitle: 'Rocket',
     productPrice: '6',
     productDescription: 'description',
-    productImgUrl: '/rocket.png'
+    productImgUrl: 'images/rocket.png'
   },
   {
     productId: 4,
@@ -31,7 +31,7 @@ const catalogProductsMocks: CatalogProduct[] = [
     productTitle: 'Rocket',
     productPrice: '3.2',
     productDescription: 'description',
-    productImgUrl: '/rocket.png'
+    productImgUrl: 'images/rocket.png'
   },
   {
     productId: 5,
@@ -39,7 +39,7 @@ const catalogProductsMocks: CatalogProduct[] = [
     productTitle: 'Fountain',
     productPrice: '5',
     productDescription: 'description',
-    productImgUrl: '/fountain.png'
+    productImgUrl: 'images/fountain.png'
   },
   {
     productId: 6,
@@ -47,7 +47,7 @@ const catalogProductsMocks: CatalogProduct[] = [
     productTitle: 'Fountain',
     productPrice: '4.5',
     productDescription: 'description',
-    productImgUrl: '/fountain.png'
+    productImgUrl: 'images/fountain.png'
   },
   {
     productId: 7,
@@ -55,7 +55,7 @@ const catalogProductsMocks: CatalogProduct[] = [
     productTitle: 'Fountain',
     productPrice: '6',
     productDescription: 'description',
-    productImgUrl: '/fountain.png'
+    productImgUrl: 'images/fountain.png'
   },
   {
     productId: 8,
@@ -63,7 +63,7 @@ const catalogProductsMocks: CatalogProduct[] = [
     productTitle: 'Fountain',
     productPrice: '3.2',
     productDescription: 'description',
-    productImgUrl: '/fountain.png'
+    productImgUrl: 'images/fountain.png'
   },
   {
     productId: 9,
@@ -71,7 +71,7 @@ const catalogProductsMocks: CatalogProduct[] = [
     productTitle: 'Party pack',
     productPrice: '5',
     productDescription: 'description',
-    productImgUrl: '/party-pack.png'
+    productImgUrl: 'images/party-pack.png'
   },
   {
     productId: 10,
@@ -79,7 +79,7 @@ const catalogProductsMocks: CatalogProduct[] = [
     productTitle: 'Party pack',
     productPrice: '4.5',
     productDescription: 'description',
-    productImgUrl: '/party-pack.png'
+    productImgUrl: 'images/party-pack.png'
   },
   {
     productId: 11,
@@ -87,7 +87,7 @@ const catalogProductsMocks: CatalogProduct[] = [
     productTitle: 'Party pack',
     productPrice: '6',
     productDescription: 'description',
-    productImgUrl: '/party-pack.png'
+    productImgUrl: 'images/party-pack.png'
   },
   {
     productId: 12,
@@ -95,7 +95,7 @@ const catalogProductsMocks: CatalogProduct[] = [
     productTitle: 'Party pack',
     productPrice: '3.2',
     productDescription: 'description',
-    productImgUrl: '/party-pack.png'
+    productImgUrl: 'images/party-pack.png'
   },
   {
     productId: 13,
@@ -103,7 +103,7 @@ const catalogProductsMocks: CatalogProduct[] = [
     productTitle: 'Sparklers',
     productPrice: '5',
     productDescription: 'description',
-    productImgUrl: '/sparklers.png'
+    productImgUrl: 'images/sparklers.png'
   },
   {
     productId: 14,
@@ -111,7 +111,7 @@ const catalogProductsMocks: CatalogProduct[] = [
     productTitle: 'Sparklers',
     productPrice: '4.5',
     productDescription: 'description',
-    productImgUrl: '/sparklers.png'
+    productImgUrl: 'images/sparklers.png'
   },
   {
     productId: 15,
@@ -119,7 +119,7 @@ const catalogProductsMocks: CatalogProduct[] = [
     productTitle: 'Sparklers',
     productPrice: '6',
     productDescription: 'description',
-    productImgUrl: '/sparklers.png'
+    productImgUrl: 'images/sparklers.png'
   },
   {
     productId: 16,
@@ -127,7 +127,7 @@ const catalogProductsMocks: CatalogProduct[] = [
     productTitle: 'Sparklers',
     productPrice: '3.2',
     productDescription: 'description',
-    productImgUrl: '/sparklers.png'
+    productImgUrl: 'images/sparklers.png'
   }
 ];
 
