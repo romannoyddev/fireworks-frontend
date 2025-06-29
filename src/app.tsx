@@ -4,7 +4,7 @@ import AppRoutes from './router/app-routes';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/fireworks-frontend">
       <SiteHeader />
       <AppRoutes />
       <footer>created by @romannoyd</footer>
